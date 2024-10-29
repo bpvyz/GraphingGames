@@ -1,0 +1,21 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 71
+        length: 29
+        placeholder_text: "# TODO"
+      - offset: 115
+        length: 59
+        placeholder_text: "# TODO"
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

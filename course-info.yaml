@@ -1,0 +1,8 @@
+type: marketplace
+title: GraphingGames
+language: English
+summary: Data Visualization in Python in-IDE course submission
+programming_language: Python
+environment: unittest
+content:
+  - lesson1

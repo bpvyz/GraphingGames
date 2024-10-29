@@ -1,0 +1,9 @@
+type: framework
+content:
+  - Installing pandas library
+  - Loading data with pandas
+  - Filtering data
+  - Grouping and counting data
+  - Ordering data
+  - Installing matplotlib library
+  - Creating a bar plot
