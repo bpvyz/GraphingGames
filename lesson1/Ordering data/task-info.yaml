@@ -5,10 +5,10 @@ files:
     placeholders:
       - offset: 281
         length: 29
-        placeholder_text: "# TODO"
+        placeholder_text: "# List of desired platform order"
       - offset: 336
         length: 36
-        placeholder_text: "# TODO"
+        placeholder_text: "# Reorder the data"
     propagatable: false
   - name: __init__.py
     visible: false

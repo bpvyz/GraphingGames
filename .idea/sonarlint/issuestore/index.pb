@@ -1,90 +1,12 @@
 
-E
-lesson1/task1/task.py,6\8\68ba217100f7581724d07ec10e2643675f9b8f77
-P
- lesson1/task1/tests/test_task.py,c\8\c86341979b07c0a7bf818bbdf8ae6d762a2c36ad
-O
-lesson1/task1/tests/__init__.py,c\5\c5fdf62492e524ac8ab11cd49d082d8b6c397cd7
-E
-lesson1/task1/task.md,8\5\85f8ce3eabe014ad5a590bbbd524f7cc4e12a0bc
-L
-lesson1/task1/task-info.yaml,2\1\21e9aea7b9200cb9c928a4959c55b514b7ba8a73
-E
-lesson1/task2/task.md,2\b\2bb82e09b46e6bcc9aba6e5578b1f8934fa06875
-E
-lesson1/task2/task.py,b\8\b822d3ac2646768bf8d99c7731ca81a16b281373
-P
- lesson1/task2/tests/test_task.py,e\b\ebcd3fe0c808a3132e83fa723c801f2f3d107337
-O
-lesson1/task2/tests/__init__.py,2\1\216e8130c80d588e621625d79478cf769cb1dcea
 @
 course-info.yaml,8\1\81db7fbbb03b3e3f063d803783ac0942e85a4031
-L
-lesson1/task2/task-info.yaml,3\1\31981615a5a6c0988135c4a00816c5df083847a2
 C
 lesson1/dataset.csv,1\6\1658e2337845156e2c601a39a9de6ae79d6f821b
-E
-lesson1/task3/task.md,0\5\05e4d369826160e5ff0a155900a270f4460eac0f
-E
-lesson1/task3/task.py,c\9\c9e416673c2e095fd63dce13c7328aafb509072c
-P
- lesson1/task3/tests/test_task.py,f\5\f503dc4579cf6d0e1ca83bca02d72a1829445578
-O
-lesson1/task3/tests/__init__.py,1\1\11529e31ba8f8540f36e08ee2a4856a3a54237e0
-O
-lesson1/task4/tests/__init__.py,0\5\0562cbf9019dfa7cf9eca5d4d89f31559cd8ead0
-E
-lesson1/task4/task.py,c\a\cadace64bf31c297728e55739214b6ee4d19f66f
-E
-lesson1/task4/task.md,f\6\f6343326049a18b7c5b14dfa1445899504d33c1e
-P
- lesson1/task4/tests/test_task.py,b\7\b703eff7b78bf3263533291a1c091d64d5d1eda5
-P
- lesson1/task5/tests/test_task.py,9\f\9f5bdb24e31ddb1ed9f29f6a24314f9e638af6ec
-E
-lesson1/task5/task.py,f\b\fba916b55ef0ad71ab5cbaa7bdad53f12f5634b7
-E
-lesson1/task5/task.md,3\5\353bf2e46165c0a6b7c1f906b85aeeb9f940d1b8
-O
-lesson1/task5/tests/__init__.py,3\c\3c17b3606a6defd8f26e742934a7a781680408b3
-O
-lesson1/task6/tests/__init__.py,1\6\16983e7f1440c128032de0e932e39af7d182ef12
-P
- lesson1/task6/tests/test_task.py,6\f\6ff3c2f33a1b089693477bdf9712638575532a22
-E
-lesson1/task6/task.md,1\a\1a3f0d1364d717318e4427f56272b7c01967dedf
-E
-lesson1/task6/task.py,4\4\4456de53fc23f7a6c345db29fbbf6c3e9954e7e6
-P
- lesson1/task0/tests/test_task.py,2\6\265ae2799eb0de426e38fb3edebcf3b82c870702
-O
-lesson1/task0/tests/__init__.py,a\5\a5f7f39026252378793a03ce53e3c721239018d9
-E
-lesson1/task0/task.py,d\2\d207353ecc6c205ebc4468a450c037256d73a699
-E
-lesson1/task0/task.md,b\6\b6ce3213af5142caca6ae3106e77889d687b9a1d
 H
 lesson1/lesson-info.yaml,a\6\a6e51e969840373134ff677f096aa96f44aaf12c
 O
 lesson1/lesson-remote-info.yaml,b\6\b68444dada5411a44c9e9a59aaed075512cae1cd
-F
-lesson1/task66/task.md,e\6\e639ea542bd59d24851a52bb568642d9b77d5b0a
-F
-lesson1/task66/task.py,f\a\fa11c61e1f26225ce7c376650989689569a4b90c
-Q
-!lesson1/task66/tests/test_task.py,a\e\ae9ec9b6164fd407d73609b21b8943069ef2fa5b
-P
- lesson1/task66/tests/__init__.py,1\5\1539a2c810e6226f5b8a1ce9a45e6090a92fddfc
-S
-#lesson1/task5/task-remote-info.yaml,a\a\aa6c2be909d1a9499f0c3b1d40e920ef76a727b1
-F
-lesson1/pandas/task.md,8\3\83a073d795e13b04068c9df1a127ff0e07235c86
-F
-lesson1/pandas/task.py,8\2\82c48b9679fdae9ab7fcf3d40239d0c7e110063c
-Q
-!lesson1/pandas/tests/test_task.py,2\9\29e1edf865531fc3c6de665983eb523c9507ab2d
-P
- lesson1/pandas/tests/__init__.py,4\3\43b008985c2b32e67740176541495a71804e7c47
 Y
 )lesson1/Installing pandas library/task.md,4\6\46f14d28563328cc1eeddeb513623409fad4100a
 Y
@@ -141,3 +63,45 @@ h
 8lesson1/Installing matplotlib library/tests/test_task.py,e\c\ecb8c510130beef128ef8408f31228bc6e6fafeb
 g
 7lesson1/Installing matplotlib library/tests/__init__.py,0\c\0cbbd199d874d0f425792ae18edb3896332ccf48
+k
+;lesson1/Installing and importing matplotlib library/task.md,f\1\f161b8208b728bee465799d495b30c14ef354bc7
+k
+;lesson1/Installing and importing matplotlib library/task.py,7\b\7bb3a4c4911d4c588438ba03d63b948f1e52aaee
+v
+Flesson1/Installing and importing matplotlib library/tests/test_task.py,2\c\2c1f93e590e6a359a9f1eac44be167325d3828fa
+u
+Elesson1/Installing and importing matplotlib library/tests/__init__.py,e\e\eebbd52584f49b62bb5e63f9a6ffed4d7c8fbd99
+g
+7lesson1/Installing and importing pandas library/task.py,7\6\7671a3b45bf3a8ec7aaec5e99e782eb8233a3b50
+q
+Alesson1/Installing and importing pandas library/tests/__init__.py,9\1\9172745fa85abbb1e7b9569d4e28d31d4b551688
+r
+Blesson1/Installing and importing pandas library/tests/test_task.py,f\1\f1c8a4c6f612e8688766f632b0661572a5705d20
+g
+7lesson1/Installing and importing pandas library/task.md,3\1\318696fd07510adcd08f03bc9a11b4edace0153d
+n
+>lesson1/Installing and importing pandas library/task-info.yaml,c\3\c3df4c63b6343d0ca51e0dce14111a6241a7af69
+_
+/lesson1/Loading data with pandas/task-info.yaml,f\8\f87ca36d2c8b9661a44510148547e580acb191f1
+U
+%lesson1/Filtering data/task-info.yaml,1\4\148cd02d76193f713cd69cf78c873ccfbc423200
+a
+1lesson1/Grouping and counting data/task-info.yaml,8\d\8da3eb04e261bc02d3d81b26653ce27ddfbc7339
+T
+$lesson1/Ordering data/task-info.yaml,b\d\bdcf8a2f6d624545907888167fd80454900a4829
+r
+Blesson1/Installing and importing matplotlib library/task-info.yaml,d\d\dd9208b17c5e34b5e7351f30ac88c23c225bead8
+Z
+*lesson1/Creating a bar plot/task-info.yaml,0\3\03f7dd9e870eae1cc1bc264a7f5609a022c5bdac
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+u
+Elesson1/Installing and importing pandas library/task-remote-info.yaml,4\e\4ef8c232de5f1560c508acd2318408d8dbb16aec
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+y
+Ilesson1/Installing and importing matplotlib library/task-remote-info.yaml,2\c\2c9c43d70ac642764734a4fc5144cec727559508
+o
+?lesson1/Installing and importing matplotlib library/__init__.py,6\e\6e9e10634e916aad5f854b3640053b81b4f92104
+k
+;lesson1/Installing and importing pandas library/__init__.py,0\8\084352e6932e7688d383671bf48d4182f4ec5133

@@ -5,7 +5,7 @@ files:
     placeholders:
       - offset: 26
         length: 29
-        placeholder_text: "# TODO"
+        placeholder_text: "# Load CSV data"
     propagatable: false
   - name: tests/test_task.py
     visible: false

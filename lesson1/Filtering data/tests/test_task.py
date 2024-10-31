@@ -107,6 +107,20 @@ class TestDataProcessing(unittest.TestCase):
         except Exception as e:
             self.fail(f"File exists but couldn't be read as CSV: {str(e)}")
 
+    def test_proper_dataframe_loaded(self):
+        """Test if the proper DataFrame is loaded and compare with the CSV data"""
+        if hasattr(self, 'df'):
+            file_path = '../dataset.csv'
+            if os.path.exists(file_path):
+                expected_df = pd.read_csv(file_path)
+
+                pd.testing.assert_frame_equal(self.df.reset_index(drop=True), expected_df.reset_index(drop=True),
+                                              check_dtype=True,
+                                              obj='Loaded DataFrame and expected DataFrame')
+
+            else:
+                self.fail(f"File not found: {file_path}")
+
 
 if __name__ == "__main__":
     unittest.main()

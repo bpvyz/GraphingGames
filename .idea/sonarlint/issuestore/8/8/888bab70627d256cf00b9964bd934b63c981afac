@@ -1,5 +1,7 @@
 
-ipython:S34572"EAdd replacement fields or use a normal string instead of an f-string.(–Ø„¦üÿÿÿÿ8Ô®âÎ­2
-Dpython:S5906?"%Consider using "assertEqual" instead.(ûÆŒ8Ô®âÎ­2
-Ipython:S5906M"%Consider using "assertEqual" instead.(»¨Şııÿÿÿÿ8Ô®âÎ­2
-Dpython:S5906t"%Consider using "assertEqual" instead.(¥Î²â8Ô®âÎ­2
+python:S5914("7Replace this expression; its boolean value is constant.(ŞæÚèûÿÿÿÿ8âÏ£÷­2J$b79bca15-f1a9-4b2d-a92e-f8d9d666652a
+python:S5914/"7Replace this expression; its boolean value is constant.(ö÷Íúÿÿÿÿ8ãÏ£÷­2J$7016f746-f899-47a0-bcad-fd4306011fca
+python:S3457;"EAdd replacement fields or use a normal string instead of an f-string.(–Ø„¦üÿÿÿÿ8ãÏ£÷­2J$bf02e308-37e4-4028-a81f-3026f41cce26
+jpython:S5906G"%Consider using "assertEqual" instead.(ûÆŒ8ãÏ£÷­2J$fbc0e472-0bb6-44c0-b0ef-08a69228e47e
+opython:S5906U"%Consider using "assertEqual" instead.(»¨Şııÿÿÿÿ8ãÏ£÷­2J$f88a2640-9d4f-46b5-8275-7b35a2bd4946
+kpython:S5906Š"%Consider using "assertEqual" instead.(¥Î²â8ãÏ£÷­2J$944a5828-cf1b-4367-9e0e-f11716e2ed16

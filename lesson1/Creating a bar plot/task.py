@@ -11,12 +11,16 @@ genre_counts = filtered_df.groupby(['platform', 'genre']).size().unstack(fill_va
 platform_order = ['PS4', 'XOne', 'PC', 'WiiU']
 genre_counts_reindexed = genre_counts.reindex(platform_order)
 
-genre_counts_reindexed.plot(kind='bar', figsize=(10, 6))
+def create_genre_count_plot(genre_counts_reindexed):
 
-plt.xlabel('platform')
-plt.ylabel('count')
-plt.xticks(rotation=0)
-plt.legend(title='genre')
-plt.tight_layout()
+    genre_counts_reindexed.plot(kind='bar', figsize=(10, 6))
 
-plt.show()
+    plt.xlabel('platform')
+    plt.ylabel('count')
+    plt.xticks(rotation=0)
+    plt.legend(title='genre')
+    plt.tight_layout()
+
+    plt.show()
+
+create_genre_count_plot(genre_counts_reindexed)

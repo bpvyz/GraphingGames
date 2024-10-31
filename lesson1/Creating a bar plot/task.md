@@ -1,48 +1,37 @@
+## Step 7: Visualize Genre Counts with a Bar Plot
 
-This is a task description file.
-Its content will be displayed to a learner
-in the **Task Description** window.
+In this step, you will create a bar plot to visualize the genre counts for each platform using the `matplotlib` library. Visualizing the data helps in understanding trends and comparisons among different genres across platforms.
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md**
-to **task.html**, or vice versa.
-The default task description format can be changed
-in **Preferences | Tools | Education**,
-but this will not affect any existing task description files.
+### Instructions
 
-The following features are available in
-**task.md/task.html** which are specific to the JetBrains Academy plugin:
+1. **Prepare the Plot**  
+   Use the `plot()` method to create a bar plot from the `genre_counts_reindexed` DataFrame. Specify the plot type and size for better visibility.
 
-- Hints can be added anywhere in the task text.
-  Type "hint" and press Tab.
-  Hints should be added to an empty line in the task text.
-  In hints you can use both HTML and Markdown.
+2. **Label the Axes**  
+   Add labels to the x-axis and y-axis to clearly indicate what each axis represents. This is important for anyone viewing the plot.
+
+3. **Customize Tick Marks**  
+   Adjust the rotation of the x-tick labels to ensure they are readable and do not overlap.
+
+4. **Add a Legend**  
+   Include a legend to differentiate between the genres represented in the plot. Set a title for the legend for clarity.
+
+5. **Optional: Adjust Layout**  
+   Use `tight_layout()` to optimize the layout of the plot. This ensures that all elements fit well within the figure without overlap.
+
+6. **Display the Plot**  
+   Finally, display your plot!
+
+---
+
 <div class="hint">
+Here are the functions you might find helpful:
 
-Text of your hint
-
+- [DataFrame.plot()](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
+- [pyplot.xlabel()](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlabel.html)
+- [pyplot.ylabel()](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylabel.html)
+- [pyplot.xticks()](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xticks.html)
+- [pyplot.legend()](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html)
+- [pyplot.tight_layout()](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.tight_layout.html)
+- [pyplot.show()](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html)
 </div>
-
-- You may need to refer your learners to a particular lesson,
-task, or file. To achieve this, you can use the in-course links.
-Specify the path using the `[link_text](course://lesson1/task1/file1)` format.
-
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere
-on the **Editor** tab and choose the **Insert shortcut** option
-from the context menu.
-For example: &shortcut:FileStructurePopup;.
-
-- Insert the &percnt;`IDE_NAME`&percnt; macro,
-which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
-
-- Insert PSI elements, by using links like
-`[element_description](psi_element://link.to.element)`.
-To get such a link, right-click the class or method
-and select **Copy Reference**.
-Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a [link to the "contains" method](psi_element://java.lang.String#contains).
-
-- You can add link to file using **full path** like this:
-  `[file_link](file://lesson1/task1/file.txt)`.

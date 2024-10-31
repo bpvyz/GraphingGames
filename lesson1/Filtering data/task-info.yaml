@@ -5,10 +5,10 @@ files:
     placeholders:
       - offset: 71
         length: 29
-        placeholder_text: "# TODO"
+        placeholder_text: "# Define filter list here"
       - offset: 115
         length: 59
-        placeholder_text: "# TODO"
+        placeholder_text: "# Filter the DataFrame here"
     propagatable: false
   - name: __init__.py
     visible: false

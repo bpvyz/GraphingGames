@@ -1,48 +1,31 @@
+## Step 5: Reorder Data by Platform
 
-This is a task description file.
-Its content will be displayed to a learner
-in the **Task Description** window.
+In this step, you’ll reorder the summary data from Step 4 to follow a specific platform order. This will ensure that the platforms are displayed in a consistent sequence, making the data easier to read and compare.
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md**
-to **task.html**, or vice versa.
-The default task description format can be changed
-in **Preferences | Tools | Education**,
-but this will not affect any existing task description files.
+### Instructions
 
-The following features are available in
-**task.md/task.html** which are specific to the JetBrains Academy plugin:
+1. **Define Platform Order**  
+   Start by creating a list, `platform_order`, with the specific order of platforms you want.
 
-- Hints can be added anywhere in the task text.
-  Type "hint" and press Tab.
-  Hints should be added to an empty line in the task text.
-  In hints you can use both HTML and Markdown.
+2. **Reorder the Data**  
+   Reorder your grouped data to match `platform_order`. You need to adjust the rows or columns to the desired sequence and ensure any missing entries are handled correctly.
+
+3. **Check the Result**  
+   Display the reordered data to confirm that the platforms now appear in the specified order.
+
+---
+
 <div class="hint">
+Here are links to the documentation for the functions you’ll use:
 
-Text of your hint
-
+- [reindex() documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.reindex.html)
 </div>
 
-- You may need to refer your learners to a particular lesson,
-task, or file. To achieve this, you can use the in-course links.
-Specify the path using the `[link_text](course://lesson1/task1/file1)` format.
+<div class="hint">
+  
+1. First, define the desired platform order as a list with `platform_order = ['PS4', 'XOne', 'PC', 'WiiU']`.
 
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere
-on the **Editor** tab and choose the **Insert shortcut** option
-from the context menu.
-For example: &shortcut:FileStructurePopup;.
+2. Use the `.reindex()` method on your `genre_counts` DataFrame to reorder it. Use `platform_order` as the argument, specifying which axis to reindex.
 
-- Insert the &percnt;`IDE_NAME`&percnt; macro,
-which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
-
-- Insert PSI elements, by using links like
-`[element_description](psi_element://link.to.element)`.
-To get such a link, right-click the class or method
-and select **Copy Reference**.
-Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a [link to the "contains" method](psi_element://java.lang.String#contains).
-
-- You can add link to file using **full path** like this:
-  `[file_link](file://lesson1/task1/file.txt)`.
+3. Use `print()` to display `genre_counts_reindexed` and verify that the DataFrame’s rows appear in the desired order.
+</div>

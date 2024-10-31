@@ -3,15 +3,9 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 464
-        length: 56
-        placeholder_text: "# Prepare the plot"
-      - offset: 526
-        length: 126
-        placeholder_text: "# Customize the bar plot"
-      - offset: 658
-        length: 10
-        placeholder_text: "# Display your plot!"
+      - offset: 20
+        length: 31
+        placeholder_text: "# Import your library here"
     propagatable: false
   - name: __init__.py
     visible: false

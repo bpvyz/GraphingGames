@@ -1,10 +1,7 @@
 import unittest
-from unittest.mock import patch
 import os
 import pandas as pd
-import matplotlib.pyplot as plt
 
-from task import create_genre_count_plot
 
 class TestDataProcessing(unittest.TestCase):
     @classmethod
@@ -154,25 +151,6 @@ class TestDataProcessing(unittest.TestCase):
 
             else:
                 self.fail(f"File not found: {file_path}")
-
-    @patch('matplotlib.pyplot.show')
-    def test_create_genre_count_plot(self, mock_show):
-        """Test properties of the generated plot."""
-
-        create_genre_count_plot(self.genre_counts_reindexed)
-
-        ax = plt.gca()
-        bars = ax.patches
-
-        self.assertGreater(len(bars), 0, "No bars found in the plot.")
-
-        self.assertEqual(ax.get_xlabel(), 'platform', "X-axis label should be 'platform'")
-
-        self.assertEqual(ax.get_ylabel(), 'count', "Y-axis label should be 'count'")
-
-        legend = ax.get_legend()
-        self.assertIsNotNone(legend, "Legend should be present")
-        self.assertEqual(legend.get_title().get_text(), 'genre', "Legend title should be 'genre'")
 
 if __name__ == "__main__":
     unittest.main()

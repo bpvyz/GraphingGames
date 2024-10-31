@@ -1,48 +1,38 @@
+## Step 4: Group and Summarize Data by Platform and Genre
 
-This is a task description file.
-Its content will be displayed to a learner
-in the **Task Description** window.
+In this step, you'll group your filtered data by both `platform` and `genre` to get a count of each genre for each platform. This will help you summarize the data, showing the popularity of various genres across different platforms.
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md**
-to **task.html**, or vice versa.
-The default task description format can be changed
-in **Preferences | Tools | Education**,
-but this will not affect any existing task description files.
+### Instructions
 
-The following features are available in
-**task.md/task.html** which are specific to the JetBrains Academy plugin:
+1. **Group the Data**  
+   Start by grouping the `filtered_df` DataFrame by both the `platform` and `genre` columns. This will categorize entries by genre within each platform.
 
-- Hints can be added anywhere in the task text.
-  Type "hint" and press Tab.
-  Hints should be added to an empty line in the task text.
-  In hints you can use both HTML and Markdown.
+2. **Count Entries for Each Group**  
+   Use an appropriate method to count how many times each genre appears within each platform group. This will give a summary of counts.
+
+3. **Convert to Table Format**  
+   To make the data easier to analyze, transform the result so each platform appears as a separate column.
+
+4. **Display the Result**  
+   Print the grouped and counted data to check your work and ensure the output matches expectations.
+
+---
+
 <div class="hint">
+Here are the functions you might find helpful:
 
-Text of your hint
-
+- [DataFrame.groupby()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html)
+- [Series.size()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.size.html)
+- [DataFrame.unstack()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.unstack.html)
 </div>
 
-- You may need to refer your learners to a particular lesson,
-task, or file. To achieve this, you can use the in-course links.
-Specify the path using the `[link_text](course://lesson1/task1/file1)` format.
+<div class="hint">
 
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere
-on the **Editor** tab and choose the **Insert shortcut** option
-from the context menu.
-For example: &shortcut:FileStructurePopup;.
+1. First, group `filtered_df` by `platform` and `genre` using `groupby()`.
+   
+2. Count entries for each genre-platform combination with `.size()`.
 
-- Insert the &percnt;`IDE_NAME`&percnt; macro,
-which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
+3. Convert your grouped data to table format with `.unstack()`. Set `fill_value=0` as a precaution for missing values.
 
-- Insert PSI elements, by using links like
-`[element_description](psi_element://link.to.element)`.
-To get such a link, right-click the class or method
-and select **Copy Reference**.
-Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a [link to the "contains" method](psi_element://java.lang.String#contains).
-
-- You can add link to file using **full path** like this:
-  `[file_link](file://lesson1/task1/file.txt)`.
+4. Use `print()` to display the results and verify your DataFrame’s structure.
+</div>
