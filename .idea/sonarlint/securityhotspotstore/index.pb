@@ -7,14 +7,6 @@ H
 lesson1/lesson-info.yaml,a\6\a6e51e969840373134ff677f096aa96f44aaf12c
 O
 lesson1/lesson-remote-info.yaml,b\6\b68444dada5411a44c9e9a59aaed075512cae1cd
-Y
-)lesson1/Installing pandas library/task.md,4\6\46f14d28563328cc1eeddeb513623409fad4100a
-Y
-)lesson1/Installing pandas library/task.py,4\0\40505af8bb69a0abd4d7bf01d92a2a5876bf3fe1
-d
-4lesson1/Installing pandas library/tests/test_task.py,4\e\4ec2837ec6495917503b53b47871604d8fa50ec3
-c
-3lesson1/Installing pandas library/tests/__init__.py,6\e\6e69fd521b0bfc282ef729695b2738ea89f603eb
 S
 #lesson1/Creating a bar plot/task.md,e\e\ee088c462ea7e06f6b5751aa8e9de81f24e76414
 S
@@ -55,14 +47,6 @@ X
 (lesson1/Ordering data/tests/test_task.py,6\d\6d97185290d3ed6142283d67aff15e0281224a76
 M
 lesson1/Ordering data/task.py,a\8\a80fd887f56f1dc6cad01646fbdf04f1e6bd3e66
-]
--lesson1/Installing matplotlib library/task.md,9\e\9e84f566c90210c2e199b8ea3e05f9246805e1ab
-]
--lesson1/Installing matplotlib library/task.py,b\3\b381d90ab6023642ab4754fdb91e3488f8c302d7
-h
-8lesson1/Installing matplotlib library/tests/test_task.py,e\c\ecb8c510130beef128ef8408f31228bc6e6fafeb
-g
-7lesson1/Installing matplotlib library/tests/__init__.py,0\c\0cbbd199d874d0f425792ae18edb3896332ccf48
 k
 ;lesson1/Installing and importing matplotlib library/task.md,f\1\f161b8208b728bee465799d495b30c14ef354bc7
 k

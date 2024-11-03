@@ -27,7 +27,6 @@ class TestDataProcessing(unittest.TestCase):
 
     def test_code_execution(self):
         if not hasattr(self, 'df') or not hasattr(self, 'filtered_df'):
-            # If FileNotFoundError, check file location first
             if "No such file or directory" in getattr(self, 'import_error', ''):
                 file_path = '../dataset.csv'
                 if not os.path.exists(file_path):
@@ -71,7 +70,6 @@ class TestDataProcessing(unittest.TestCase):
             self.fail(f"filtered_df contains invalid platforms: {invalid_platforms}\n"
                       f"Only these platforms should be included: {allowed_platforms}")
 
-        # Check if empty
         if self.filtered_df.empty:
             self.fail("filtered_df is empty. Check your filtering condition.")
 
